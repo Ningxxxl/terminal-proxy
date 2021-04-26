@@ -14,7 +14,19 @@
 
    
 
-2. **一键启用/停用**
+2. **修改配置**
+
+   修改 `terminal_proxy_switch.sh` 中 `proxy_on` 里的 `http_proxy`：
+
+   ```shell
+   # ！！！！ CHANGE THIS ！！！！
+   # 默认是http://127.0.0.1:8889
+   http_proxy=_CHANGE_THIS_
+   ```
+
+   
+
+3. **一键启用/停用**
 
    ***推荐的方式：***
 
@@ -33,7 +45,7 @@
 
    
 
-3. **检查IP信息（查看代理是否生效）**
+4. **检查IP信息（查看代理是否生效）**
 
    ```shell
    terminal-proxy -i
