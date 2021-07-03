@@ -5,8 +5,8 @@ INFO_OFF="\n\t\033[1mPROXY-SWITCH\033[0m \t -×-\t-×-\t-×-  \t [\033[1;47;31m 
 
 OPT=$(echo $1 | tr 'a-z' 'A-Z')
 
-if [ "$OPT" == "" ]; then
-    [ "$http_proxy" == "" ] && OPT="-ON" || OPT="-OFF"
+if [ ! "$OPT" ]; then
+    [ ! "$http_proxy" ] && OPT="-ON" || OPT="-OFF"
 fi
 
 function proxy_on() {
