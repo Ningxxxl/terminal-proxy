@@ -1,15 +1,18 @@
 # terminal-proxy
-一键启用/停用终端代理，反 复 横 跳。
+优雅的一键启用/停用终端代理，反 复 横 跳。
 
 
 
 ## Usage
 
-```shell
-curl -LJO https://github.com/Ningxxxl/terminal-proxy/blob/main/terminal_proxy_switch.sh
-```
 
-1. **创建别名**
+1. **下载**
+
+   ```shell
+   cd ~ && curl -LJO https://github.com/Ningxxxl/terminal-proxy/blob/main/terminal_proxy_switch.sh && chmod +x terminal_proxy_switch.sh
+   ```
+
+2. **创建别名**
 
    加入 `~/.zshrc ` 或者 `~/.bash_profile` 中
 
@@ -19,7 +22,7 @@ curl -LJO https://github.com/Ningxxxl/terminal-proxy/blob/main/terminal_proxy_sw
 
    
 
-2. **修改配置**
+3. **修改配置**
 
    修改 `terminal_proxy_switch.sh` 中 `proxy_on` 里的 `http_proxy`：
 
@@ -31,11 +34,13 @@ curl -LJO https://github.com/Ningxxxl/terminal-proxy/blob/main/terminal_proxy_sw
 
    
 
-3. **一键启用/停用**
+4. **一键启用/停用**
 
    ***推荐的方式：***
 
-   直接敲入 **`terminal-proxy`** 即可在启动和停止状态直接反复横跳。
+   直接敲入 **`terminal-proxy`** 即可。
+   
+   （在启动和停止状态直接反复横跳。）
 
    
 
@@ -50,7 +55,7 @@ curl -LJO https://github.com/Ningxxxl/terminal-proxy/blob/main/terminal_proxy_sw
 
    
 
-4. **检查IP信息（查看代理是否生效）**
+5. **检查IP信息（查看代理是否生效）**
 
    ```shell
    terminal-proxy -i
