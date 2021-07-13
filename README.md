@@ -14,10 +14,10 @@
 
 2. **创建别名**
 
-   加入 `~/.zshrc ` 或者 `~/.bash_profile` 中
+   加入 `~/.zshrc ` 或者 `~/.bashrc` 中。
 
    ```shell
-   alias terminal-proxy='. /users/ningxy/terminal_proxy_switch.sh'
+   alias terminal-proxy='. ~/terminal_proxy_switch.sh'
    ```
 
    
@@ -31,6 +31,8 @@
    # 默认是http://127.0.0.1:8889
    http_proxy=_CHANGE_THIS_
    ```
+   
+   修改完成之后，重启终端。
 
    
 
