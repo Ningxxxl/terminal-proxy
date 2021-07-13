@@ -4,11 +4,16 @@
 
 
 ## Usage
+
+```shell
+curl -LJO https://github.com/Ningxxxl/terminal-proxy/blob/main/terminal_proxy_switch.sh
+```
+
 1. **创建别名**
 
    加入 `~/.zshrc ` 或者 `~/.bash_profile` 中
 
-   ```
+   ```shell
    alias terminal-proxy='. /users/ningxy/terminal_proxy_switch.sh'
    ```
 
