@@ -9,7 +9,7 @@
 1. **下载**
 
    ```shell
-   cd ~ && curl -LJO https://github.com/Ningxxxl/terminal-proxy/blob/main/terminal_proxy_switch.sh && chmod +x terminal_proxy_switch.sh
+   cd ~ && curl -LJO https://raw.githubusercontent.com/Ningxxxl/terminal-proxy/main/terminal_proxy_switch.sh && chmod +x terminal_proxy_switch.sh
    ```
 
 2. **创建别名**
